@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(45deg, #3494E6, #EC6EAD);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+.header h1 {
+  font-size: 4rem;
+  background: linear-gradient(45deg,rgba(255,255,255,0.7), rgba(255,255,255,0.2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

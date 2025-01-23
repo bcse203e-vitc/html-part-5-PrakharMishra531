@@ -1,0 +1,23 @@
+.btn-gradient {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+.btn-border:hover {
+  border: 2px solid red;
+}
+.btn-border {
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+.btn-glow {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+.btn-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 1);
+}
